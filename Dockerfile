@@ -4,9 +4,9 @@
 #
 ######
 
-FROM ruby-1.9.3
+FROM ruby:2.1.5
 
-MAINTAINER Randy D. Wallace Jr. <randy@randywallace.com>
+MAINTAINER Tadas Subonis <tadas.subonis@gmail.com>
 
 RUN gem install redmon
 
